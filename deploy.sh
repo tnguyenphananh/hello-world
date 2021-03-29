@@ -12,5 +12,5 @@ git config --global user.email tnguyenphananh@knox.edu
 git config --global user.name tnguyenphananh
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:tnguyenphananh/hello-world.git master:gh-pages
+git subtree push --prefix dist origin gh-pages
 cd -
